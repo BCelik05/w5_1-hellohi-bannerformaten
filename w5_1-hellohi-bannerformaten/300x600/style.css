@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.stage {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    color: white;
+    background-color: black;
+}
+
+.brand-bars {
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    display: flex;
+    gap: 4px;
+}
+
+.brand-bars span {
+    width: 17px;
+    height: 7px;
+    background-color: #9000ff;
+}
+
+.brand-bars span:nth-child(2) {
+    background-color: #55559f;
+}
+
+.brand-bars span:nth-child(3) {
+    background-color: #b0b0eb;
+}
+
+.speech-bubble {
+    position: absolute;
+    top: 36px;
+    left: 204px;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.headerText {
+    position: absolute;
+    top: 48px;
+    left: 27px;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.paragraphText {
+    position: absolute;
+    top: 118px;
+    left: 27px;
+    font-size: 30px;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.paragraphText1 {
+    position: absolute;
+    top: 158px;
+    left: 27px;
+    font-size: 18px;
+}
+
+.sim-card {
+    position: absolute;
+    top: 172px;
+    left: 60px;
+    width: 107px;
+    height: 172px;
+    object-fit: fill;
+    transform: rotate(90deg);
+}
+
+.benefits {
+    position: absolute;
+    top: 335px;
+    left: 24px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.curve {
+    position: absolute;
+    top: 430px;
+    left: -30px;
+    width: 360px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: #7474dc;
+}
+
+.cta {
+    position: absolute;
+    top: 504px;
+    left: 24px;
+    width: 254px;
+    height: 72px;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    background: transparent;
+    font: inherit;
+    font-size: 24px;
+    cursor: pointer;
+}
